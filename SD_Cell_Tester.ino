@@ -260,7 +260,7 @@ void setup() {
       
       delay(100); 
       }
-      else 
+     else 
       {
         readMyFile();
       }
