@@ -106,7 +106,7 @@ void initializeCard()
 {
   Serial.print("Beginning initialization of SD card: ");
 
-  if(!SD.begin(csPin))
+  if(!SD.begin(CS_Pin))
   {
     Serial.println("SD initialization failed");
     while (1);
