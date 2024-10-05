@@ -144,6 +144,9 @@ void writeData()
     myFile.print(millis());
     myFile.print(" , ");
     myFile.println(Res_Volt);
+    Serial.print(millis());
+    Serial.print(" , ");
+    Serial.println(Res_Volt);
     myFile.close();
   }
 
